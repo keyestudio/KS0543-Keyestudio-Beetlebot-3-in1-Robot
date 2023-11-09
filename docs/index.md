@@ -107,7 +107,7 @@ Turn the DIP switch to the OFF end before installing or removing batteries.
 
 ## 6. Keyestudio Nano Board
 
-### Description
+ **Description**
 
 The processor core of Keyestudio Nano CH340 is ATMEGA328P-AU. It is as same as the official Arduino Nano in addition to driver file and USB to serial chip (CH340G).
 
@@ -115,7 +115,7 @@ It also has 14 digital input / output interfaces (6 of which can be used as PWM 
 
 The ICSP interface is used to program the Atmega328P-Au. We can supply power with a USB cable, the port VIN GND (DC 7-12V) and GND
 
-### Specification
+ **Specification**
 
 Microcontroller：ATMEGA328P-AU
 
@@ -141,7 +141,7 @@ Clock Speed: 16 MHz
 
 LED_BUILTIN: D13
 
-### Pins
+ **Pins**
 
 ![image-20231108171148636](media/image-20231108171148636.png)
 
@@ -167,7 +167,7 @@ LED_BUILTIN: D13
 | 17   | CH340G                           | USB-to-serial port chip, converting the USB signal into Serial port signal. |
 | 18   | AMS1117                          | Convert the external voltage input DC7-12V into DC5V, then transfer it to the processor and other elements. |
 
-### Specialized Functions of Some Pins:
+ **Specialized Functions of Some Pins:**
 
 - **Serial communication:** RX0 and TX1.
 - **PWM (Pulse-Width Modulation):** D3, D5, D6, D9, D10, D11

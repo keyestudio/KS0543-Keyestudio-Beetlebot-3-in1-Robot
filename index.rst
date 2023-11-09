@@ -6,7 +6,7 @@
    README.md
    docs/index
    docs/Arduino/Arduino
-   docs/Scratch/Scratch
+   docs/Scratch/Kidsblock
    docs/Arduino/Catapult
    docs/Arduino/Handling
    docs/Arduino/Soccer
