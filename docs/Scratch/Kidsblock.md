@@ -1,5 +1,25 @@
 # **Kidsblock tutorial**
 
+## Getting started with Kidsblock software
+
+**Instruction**
+
+The Kidsblock, based on the Scratch graphical programming software, integrates multiple mainstream mainboards, sensors as well as modules. It can be programmed by dragging graphical blocks and using the C/C++ programming language, making programming easy and interesting for children to learn.
+
+**Download and install KidsBlock software**
+
+**[Windows system](https://www.kidsblock.cn/Down/KidsBlock.exe)**
+
+**[MACOS system](https://www.kidsblock.cn/Down/KidsBlock-MACOS.dmg)**
+
+
+**Install Development Board Driver**
+
+**[How to install development board driver](https://kidsblocksite.readthedocs.io/en/latest/driver/)**
+
+**Start your first program**
+**[Quick Start](https://kidsblocksite.readthedocs.io/en/latest/function/)**
+
 ## Interface Setting：
 
 After the KidsBlock is installed，open KidsBlock to click![](media/bfbf7c471ede03845519b11961a13837.png)\<“**Beetlebot**”\<“**Connect**”，
