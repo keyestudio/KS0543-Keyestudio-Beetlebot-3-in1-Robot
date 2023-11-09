@@ -40,7 +40,7 @@ Then click ![](media/770292e2b4d7555030eaf7951cf58aec.png)to switch the mode, th
 
 ![image-20231109081455305](media/image-20231109081455305.png)
 
-####  Step 1
+Step 1
 
 Required Parts
 
@@ -50,7 +50,7 @@ Required Parts
 
 ![image-20231109081605706](media/image-20231109081605706.png)
 
-#### Step 2
+Step 2
 
 Required Parts
 
@@ -60,7 +60,7 @@ Required Parts
 
 ![image-20231109081648062](media/image-20231109081648062.png)
 
-#### Step 3
+Step 3
 
 Required Parts
 
@@ -70,7 +70,7 @@ Required Parts
 
 ![image-20231109081724338](media/image-20231109081724338.png)
 
-#### Step 4
+Step 4
 
 Required Parts
 
@@ -80,7 +80,7 @@ Required Parts
 
 ![image-20231109081757200](media/image-20231109081757200.png)
 
-#### Step 5
+Step 5
 
 Required Parts
 
@@ -105,7 +105,7 @@ Required Parts
 
 ![image-20231109081951910](media/image-20231109081951910.png)
 
-#### Step 6
+Step 6
 
 Required Parts
 
@@ -115,7 +115,7 @@ Required Parts
 
 ![image-20231109082142266](media/image-20231109082142266.png)
 
-#### Step 7
+Step 7
 
 Required Parts
 
@@ -125,7 +125,7 @@ Required Parts
 
 ![image-20231109082212181](media/image-20231109082212181.png)
 
-#### Step 8
+Step 8
 
 Required Parts
 
@@ -135,7 +135,7 @@ Required Parts
 
 ![image-20231109082241920](media/image-20231109082241920.png)
 
-#### Step 9
+Step 9
 
 Required Parts
 
@@ -182,7 +182,7 @@ Copy the above code to the main board of the Beetlebot car.You also can adjust t
 
 ![image-20231109083811276](media/image-20231109083811276.png)
 
-#### Step 10
+Step 10
 
 Required Parts
 
@@ -192,7 +192,7 @@ Required Parts
 
 ![image-20231109083905287](media/image-20231109083905287.png)
 
-#### Step 11
+Step 11
 
 Required Parts
 
@@ -202,7 +202,7 @@ Required Parts
 
 ![image-20231109084052842](media/image-20231109084052842.png)
 
-#### Step 12
+Step 12
 
 Required Parts
 
