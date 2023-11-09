@@ -6,9 +6,9 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 
 ## **How to build up a handling robot**
 
-| How to install the handling robot                                                                                                                                                                                                                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                    |           |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| Step 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                    |           |
+| How to install the handling robot                                                                                                                                                                                                                                                                 
+|------------------------------------------------------------------------------------------
+|  Step 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                    |           |
 |  Dismantle the ultrasonic sensor                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | ![ 6.png 6](media/f05a58fdd61093240a78a884d2484bab.png)               |           |
 |   Required components                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | ![ 6_2.png 6_2](media/1f8438657adee5ee0931a2e0db8c8d79.png)           |           |
 |   ![ 6_3.png 6_3](media/b9cb95a5c53ab96b85b41d648c19534f.png)     ![ 6_4.png 6_4](media/502348fe825fa6e57cd61d1700c93c0f.png)          |                                                                                                                                                                                                                                                    |           |
@@ -42,7 +42,16 @@ Among many industrial robots, handling robots are undoubtedly effective, applied
 
 Upload the code of the servo to the main board of the Beetlebot car, as shown below
 
-![](media/c7d72528eccf034dd941fde14860d335.png)
+      #include <Servo.h>
+      Servo myservo;  // create servo object to control a servo
+
+      void setup() {
+        myservo.attach(A0);  // attaches the servo on pin A0 to the servo object
+      }
+
+      void loop() {
+        myservo.write(180);  // tell servo to go to position
+      }
 
 You can also initialize the angle of the servo through the following code
 
@@ -81,7 +90,7 @@ Wire up servo
  
 
 
-## **Test Code：**
+## **Arduino Code：**
 ```c
 #include <Servo.h>
 Servo lgservo;
@@ -164,6 +173,10 @@ void car_stop()
   analogWrite(MR_PWM,0);
 }
 ```
+
+## **Kidsblock Code：**
+
+![](media/handing.png)
 
 Connect Wifi, click buttons![](media/5f365b2083f264b4ecfc5e68d07df287.png) to make the car to move toward building blocks and put some building blocks on the robot.
 

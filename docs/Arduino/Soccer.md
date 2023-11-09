@@ -7,9 +7,9 @@ Can you imagine that a robot can play soccer? This idea has became realistic. As
 ## **How to install the soccer robot**
 
 
-| Install the soccer robot                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                          |           |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| Step 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                          |           |
+| Install the soccer robot                                                                                                                                                                                                                                                                                                                                                     
+|------------------------------------------------------------------------------------------
+|  Step 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                          |           |
 |    Remove two photoresistors first.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | ![ 3_1.png 3_1](media/5e64e86f88135f370916439bbabb2d5a.png) |           |
 |    Required Parts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | ![ 3_3.png 3_3](media/52bddcd05b409305adfbb39a9af55ee6.png) |           |
 |  ![ 3_4.png 3_4](media/9b295f5c6b71340264eb54fd701296d6.png)   ![ 3_5.png 3_5](media/448e4708895f49afd985391c8ac0cd04.png)                                                                          |                                                                                                                                                                                                                                          |           |
@@ -43,7 +43,17 @@ Can you imagine that a robot can play soccer? This idea has became realistic. As
 
 Upload the code of the servo to the main board of the Beetlebot car, as shown below
 
-![](media/28e5c971d2eb4d3b805dd29139e2dccd.png)
+    #include <Servo.h>
+    Servo myservo;  // create servo object to control a servo
+
+    void setup() {
+      myservo.attach(A0);  // attaches the servo on pin A0 to the servo object
+    }
+
+    void loop() {
+      myservo.write(180);  // tell servo to go to position
+    }
+
 
 You can also initialize the angle of the servo through the following code
 
@@ -108,7 +118,7 @@ Wire up the LEGO servo
 
 ![](media/ae233055944889ea156592cbbc8392dd.png)
 
-## **Test Code：**
+## **Arduino Code：**
 ```c
 #include <Servo.h>
 Servo lgservo;
@@ -193,6 +203,11 @@ void car_stop()
   analogWrite(MR_PWM,0);
 }
 ```
+
+## **Kidsblock Code：**
+
+![](media/football.png)
+
 Build up the soccer goal with building blocks and place it at fixed location, connect the robot car through Wifi.
 
 Put a small soccer in the middle of the claw of the robot car, press and hold down the button ![](media/c6d6fb5f7473c0aabcdeddb580b740ed.png)to enable the claw to hold the soccer, then press buttons ![](media/5f365b2083f264b4ecfc5e68d07df287.png)to adjust the car’s movement direction so as to put the soccer close to the soccer goal. At last, release the button ![](media/c6d6fb5f7473c0aabcdeddb580b740ed.png)to allow the soccer to drop on the floor and roll to the soccer goal. If not, repeat the above step to shoot the goal.

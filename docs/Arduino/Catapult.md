@@ -8,9 +8,9 @@ As the servo rotates to a proper angle then push the long arm backward a project
 
 ## **How to build up a catapult**
 
-| How to install the catapult                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                               |           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-----------|
-| Step 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                                                                               |           |
+| How to install the catapult                                                                                                                                                                            
+|------------------------------------------------------------------------------------------
+| Step 1                                                                                                                                                                                      |                                                                               |           |
 |  Required components ![ 3.png 3](media/ef12c46a8dc6e5f5c7f7ee6fc3c3dc55.png)     ![ 3_1.png 3_1](media/85116f87b7e67a5ab0de47507da771aa.png)     ![ 3_2.png 3_2](media/bb5d2d9bc07a9cfdc997f798c6c56eca.png)              |                                                                               |           |
 | Step 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                                                                               |           |
 |  Required components ![ 3_3.png 3_3](media/d827f9196a2aed7686c9d767e64b7f66.png)      ![ 3_4.png 3_4](media/7e4fed5d035aac6b58ee79afd3aca1a1.png)     ![ 3_5.png 3_5](media/088c8c481e0b48b3625f465a4ceed269.png)         |                                                                               |           |
@@ -51,7 +51,17 @@ As the servo rotates to a proper angle then push the long arm backward a project
 
 Upload the code of the servo to the main board of the Beetlebot car, as shown below
 
-![](media/da05e34fcb280bb795a4b56c64538f62.png)
+    #include <Servo.h>
+    Servo myservo;  // create servo object to control a servo
+
+    void setup() {
+      myservo.attach(A0);  // attaches the servo on pin A0 to the servo object
+    }
+
+    void loop() {
+      myservo.write(0);  // tell servo to go to position
+    }
+
 
 You can also initialize the angle of the servo through the following code
 
@@ -82,7 +92,7 @@ Interface the servo
  ![1ce70f3a2988e646798cadfc6fc8995](media/6f46689ed976aa6a590c683928ba0675.jpeg)
 
 
-## **Test Code：**
+## **Arduino Code：**
 
 ```c
 #include <Servo.h>
@@ -182,6 +192,11 @@ void car_stop()
 }
 
 ```
+
+## **Kidsblock Code：**
+
+![](media/catapult.png)
+
 
 Build up a few target objects with building blocks(object A, B, C, D, E) and keep them in a certain distance away the catapult and connect Wifi.
 
