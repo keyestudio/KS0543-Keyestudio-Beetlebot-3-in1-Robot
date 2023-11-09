@@ -4,7 +4,9 @@
    :caption: keyestudio docs
 
    README.md
-   docs/keyestudio/index
+   docs/index
+   docs/Arduino/Arduino
+   docs/Scratch/Scratch
 
 
 
