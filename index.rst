@@ -5,6 +5,7 @@
 
    README.md
    docs/index
+   docs/Arduino/Assemble
    docs/Arduino/Arduino
    docs/Scratch/Kidsblock
    docs/Arduino/Catapult
