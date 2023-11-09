@@ -1,4 +1,4 @@
-# KS0543 Keyestudio Beetlebot 3 in 1 Robot
+# Getting started with Beetlebot Robot
 
 ## 1. Description
 

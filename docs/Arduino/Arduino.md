@@ -1,4 +1,4 @@
-# Arduino tutorial
+# **Arduino tutorial**
 
 ## Get started with Arduino
 
