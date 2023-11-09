@@ -2887,10 +2887,4 @@ Upload the code to the Arduino Nano board, as shown below;
 
 ![](media/49dce218d3a238aa8b90f763409cf7b7.png)
 
-##  Resources
 
-Download code,libraries and more details, please refer to the following link:
-
-[https://fs.keyestudio.com/KS0543](https://fs.keyestudio.com/KS0470)
-
-[Resources](./Resources.zip)

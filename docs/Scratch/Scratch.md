@@ -1377,8 +1377,4 @@ Click![](media/a6c79cf21ce5acefae141133f65bbb6b.png)to control the car to move i
 click  ![](media/03c021648ea2713c0b4bf880b763e416.png) to control the SK6812RGB to show different colors；
 click  ![](media/3bc4ea5237aa177b8ecd8aad1f926df3.png) to control the 8\*8 dot matrix display show different patterns.
 
-## Resources
 
-Download code,libraries and more details, please refer to the following link:[https://fs.keyestudio.com/KS0543](https://fs.keyestudio.com/KS0470)
-
-[Resources](./Resources.zip)

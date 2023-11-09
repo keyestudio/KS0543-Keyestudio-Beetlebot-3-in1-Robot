@@ -174,3 +174,11 @@ LED_BUILTIN: D13
 - **External Interrupts:** D2 (interrupt 0) and D3 (interrupt 1)
 - **SPI communication:** D10 (SS), D11 (MOSI), D12 (MISO), D13 (SCK).
 - **IIC communication:** A4 (SDA); A5(SCL)
+
+
+##  6.Resources
+
+Download code,libraries and more details, please refer to the following link:
+
+[https://fs.keyestudio.com/KS0543](https://fs.keyestudio.com/KS0543)
+
