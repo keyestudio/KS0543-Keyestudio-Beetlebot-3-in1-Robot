@@ -1,4 +1,4 @@
-# scratch
+# scratch tutorial
 
 ## Interface Setting：
 
