@@ -176,7 +176,7 @@ LED_BUILTIN: D13
 - **IIC communication:** A4 (SDA); A5(SCL)
 
 
-##  6.Resources
+##  7.Resources
 
 Download code,libraries and more details, please refer to the following link:
 
