@@ -1,4 +1,4 @@
-# Keyestudio Beetlebot 3 in 1 Robot for Arduino STEM Education
+# Arduino
 
 ## Get started with Arduino
 

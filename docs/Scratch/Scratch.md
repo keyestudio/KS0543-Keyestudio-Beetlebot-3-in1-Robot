@@ -1,6 +1,6 @@
-# KS0543 Keyestudio Beetlebot 3 in 1 Robot for scratch
+# scratch
 
-# Interface Setting：
+## Interface Setting：
 
 After the KidsBlock is installed，open KidsBlock to click![](media/bfbf7c471ede03845519b11961a13837.png)\<“**Beetlebot**”\<“**Connect**”，
 
@@ -36,11 +36,11 @@ Then click ![](media/770292e2b4d7555030eaf7951cf58aec.png)to switch the mode, th
 
 ![](media/13e56432e2c2e1c0294f84a64f141b77.png)
 
-# How to install the Beetlebot car：
+## How to install the Beetlebot car：
 
 ![image-20231109081455305](media/image-20231109081455305.png)
 
-###  Step 1
+####  Step 1
 
 Required Parts
 
@@ -50,7 +50,7 @@ Required Parts
 
 ![image-20231109081605706](media/image-20231109081605706.png)
 
-### Step 2
+#### Step 2
 
 Required Parts
 
@@ -60,7 +60,7 @@ Required Parts
 
 ![image-20231109081648062](media/image-20231109081648062.png)
 
-### Step 3
+#### Step 3
 
 Required Parts
 
@@ -70,7 +70,7 @@ Required Parts
 
 ![image-20231109081724338](media/image-20231109081724338.png)
 
-### Step 4
+#### Step 4
 
 Required Parts
 
@@ -80,7 +80,7 @@ Required Parts
 
 ![image-20231109081757200](media/image-20231109081757200.png)
 
-### Step 5
+#### Step 5
 
 Required Parts
 
@@ -105,7 +105,7 @@ Required Parts
 
 ![image-20231109081951910](media/image-20231109081951910.png)
 
-### Step 6
+#### Step 6
 
 Required Parts
 
@@ -115,7 +115,7 @@ Required Parts
 
 ![image-20231109082142266](media/image-20231109082142266.png)
 
-### Step 7
+#### Step 7
 
 Required Parts
 
@@ -125,7 +125,7 @@ Required Parts
 
 ![image-20231109082212181](media/image-20231109082212181.png)
 
-### Step 8
+#### Step 8
 
 Required Parts
 
@@ -135,7 +135,7 @@ Required Parts
 
 ![image-20231109082241920](media/image-20231109082241920.png)
 
-### Step 9
+#### Step 9
 
 Required Parts
 
@@ -182,7 +182,7 @@ Copy the above code to the main board of the Beetlebot car.You also can adjust t
 
 ![image-20231109083811276](media/image-20231109083811276.png)
 
-### Step 10
+#### Step 10
 
 Required Parts
 
@@ -192,7 +192,7 @@ Required Parts
 
 ![image-20231109083905287](media/image-20231109083905287.png)
 
-### Step 11
+#### Step 11
 
 Required Parts
 
@@ -202,7 +202,7 @@ Required Parts
 
 ![image-20231109084052842](media/image-20231109084052842.png)
 
-### Step 12
+#### Step 12
 
 Required Parts
 
@@ -259,9 +259,9 @@ Required Parts
 
 ![image-20231109085329684](media/image-20231109085329684.png)
 
-# Projects：
+## Projects：
 
-## Project 1: LED Blinking
+### Project 1: LED Blinking
 
 **Description：**
 
@@ -285,7 +285,7 @@ LED, the abbreviation of light emitting diodes, consists of Ga, As, P, N chemica
 
 Upload the test code to the Arduino Nano board and power up with a USB cable. Then the on-board LED will flash.
 
-## Project 2: 6812 RGB
+### Project 2: 6812 RGB
 
 **Description：**
 
@@ -318,7 +318,7 @@ The SK6812RGB on the PCB board is controlled by the IO port (A3).
 
 Upload the test code to the Arduino Nano board and power up by a USB cable. Then the four RGB lights on the PCB demonstrate multi-color light effect.
 
-## Project 3: Play Music
+### Project 3: Play Music
 
 **Description：**
 
@@ -342,7 +342,7 @@ The speaker component on the PCB board is controlled by the D3 of the Arduino Na
 
 Upload the test code to the Arduino Nano board and power up with a USB cable. Then the power amplifier component will play music.
 
-## Project 4: 8\*8 Dot Matrix
+### Project 4: 8\*8 Dot Matrix
 
 **Description：**
 
@@ -435,7 +435,7 @@ The 8\*8 dot matrix is controlled by A4（SDA）and A5（SCL）of the Arduino Na
 
 Upload the test code to the Arduino Nano board and power up by a USB cable, the 8\*8 dot matrix display will show show patterns.
 
-## Project 5: Servo Rotation
+### Project 5: Servo Rotation
 
 **Description：**
 
@@ -478,7 +478,7 @@ The servo for controlling the ultrasonic sensor is controlled by the D9 of the A
 
 Upload the test code to the Arduino Nano board, and power up with a USB cable. Then the arm of the servo will rotate to 0°, 45°, 90°, 135° and 180°.
 
-## Project 6: Motor Driving and Speed Control
+### Project 6: Motor Driving and Speed Control
 
 **Description：**
 
@@ -544,13 +544,13 @@ PWM drives the robot car. The PWM value is in the range of 0-255. The more the P
 
 Upload the test code to the Arduino Nano board, install batteries, turn the power switch to ON end and power up. The car moves forward for 2s, back for 2s, turn left for 2s, right for 2s and stops for 2s.
 
-## Project 7: Ultrasonic Sensor
+### Project 7: Ultrasonic Sensor
 
 There is an ultrasonic sensor on the car. It is a very affordable distance-measuring sensor.
 
 The ultrasonic sensor sends a high-frequency ultrasonic signal that human hearing can’t hear. When encountering obstacles, these signals will be reflected back immediately. After receiving the returned information, the distance between the sensor and the obstacle will be calculated by judging the time difference between the transmitted signal and the received signal. It is mainly used for object avoidance and ranging in various robotics projects.
 
-### Project 7.1: Ultrasonic Ranging
+#### Project 7.1: Ultrasonic Ranging
 
 **Description：**
 
@@ -615,7 +615,7 @@ When you move an object in front of the ultrasonic sensor, it will detect the di
 
 ![](media/f4f0ae02706b92e180a58788ed28698d.png)
 
-### Project 7.2: Light Following
+#### Project 7.2: Light Following
 
 **Description：**
 
@@ -648,7 +648,7 @@ In the above experiments, we have learned about the 8\*8 dot matrix, motor drive
 
 Upload the code to the Arduino Nano board, install batteries and turn the switch to the ON end and power up. Then the car will follow the obstacle to move.
 
-### Project 7.3: Dodge obstacles
+#### Project 7.3: Dodge obstacles
 
 **Description：**
 
@@ -680,11 +680,11 @@ In this project, we will take advantage of the ultrasonic sensor to detect the d
 
 Upload the test code to the Arduino Nano board, put batteries in the battery holder, turn the power switch to the ON end and power up. Then the car can automatically dodge obstacles.
 
-## Project 8: Line Tracking Sensor
+### Project 8: Line Tracking Sensor
 
 There are two IR line tracking sensors on the car. They are actually two pairs of ST188L3 infrared tubes and used to detect black and white lines. In this project, we will make a line tracking car.
 
-### Project 8.1: Reading Values
+#### Project 8.1: Reading Values
 
 **Description：**
 
@@ -728,7 +728,7 @@ The sensitivity can be adjusted by rotating the potentiometer. When the indicato
 
 ![](media/33c79ed9bc64c690b762c57eaa99e0c2.png)
 
-### Project 8.2: Line Tracking
+#### Project 8.2: Line Tracking
 
 **Description：**
 
@@ -759,13 +759,13 @@ We’ve introduced the knowledge of motor drivers, speed regulation, and infrare
 
 Upload the test code to the Arduino Nano board, turn the power switch to the ON end, power up and put the car on a map we provide. Then it will perform different functions via values sent by line tracking sensors.
 
-## Project 9: Light Following
+### Project 9: Light Following
 
 There are two photoresistors on the car. They can vary with the light intensity and send information to the Nano board to control the car.
 
 Photoresistors can determine and conduct the car to move by detecting light.
 
-### Project 9.1: Read Values
+#### Project 9.1: Read Values
 
 **Description：**
 
@@ -804,7 +804,7 @@ When the light intensifies, the analog value will get increased; on the contrary
 
 ![](media/2bcaf5712edfb3cd71ca331ef128da70.png)
 
-### Project 9.2: Light Following Car
+#### Project 9.2: Light Following Car
 
 **Description：**
 
@@ -845,13 +845,13 @@ The left and right photoresistors are controlled by A6 and A7 of the Arduino Nan
 
 Upload the test code to the Arduino Nano board, put batteries in the battery holder, turn the power switch to the ON end and power up. Then the car will follow the light to move.
 
-## Project 10: IR Remote Control
+### Project 10: IR Remote Control
 
 Infrared remote controls are everywhere in daily life. It is used to control various home appliances, such as TV, speakers, video recorders and satellite signal receivers.
 
 The remote control is composed of an IR emitter, an IR receiver and a decoding MCU. In this project, we will make a IR remote control car.
 
-### Project 10.1: IR Remote and Reception
+#### Project 10.1: IR Remote and Reception
 
 **Description：**
 
@@ -955,7 +955,7 @@ Code of each key.
 
 ![图形1](media/ebcf0cb2055f7784505f76ceeaef9f47.jpeg)
 
-### Project 10.2: IR Remote Control Car
+#### Project 10.2: IR Remote Control Car
 
 **Description：**
 
@@ -990,11 +990,11 @@ control and the infrared receiver to control the car.
 
 Upload the test code to the Arduino Nano motherboard, install batteries, turn the power switch to the ON end, power up and press a key of the IR remote control. Then the car will make the corresponding movement.
 
-## Project 11: WIFI Control
+### Project 11: WIFI Control
 
 In this lesson, we control the car through app. The Beetlebot APP sends commanders to the WIFI ESP-01 module then transfers to it to the microcontroller. By doing this, the car can perform different functions.
 
-### Project 11.1: WIFI Test
+#### Project 11.1: WIFI Test
 
 **Description：**
 
@@ -1361,7 +1361,7 @@ Click buttons on the app, the serial monitor will print some control characters,
 
 Click![](media/db52b661d5b22528618e9c14aefa367e.png)，a“smile”pattern will be displayed；click ![](media/6abdf809090a56fb251e9ee4d44c70f4.png),“十”will be shown；click![](media/aca24e8c4a86a9a2702160be4a4d9970.png),“❤”will be shown.
 
-### Project 11.2: Multi-purpose Car
+#### Project 11.2: Multi-purpose Car
 
 In this project we will demonstrate multiple functions of the Beetlebot car through app.
 
@@ -1377,7 +1377,7 @@ Click![](media/a6c79cf21ce5acefae141133f65bbb6b.png)to control the car to move i
 click  ![](media/03c021648ea2713c0b4bf880b763e416.png) to control the SK6812RGB to show different colors；
 click  ![](media/3bc4ea5237aa177b8ecd8aad1f926df3.png) to control the 8\*8 dot matrix display show different patterns.
 
-# Resources
+## Resources
 
 Download code,libraries and more details, please refer to the following link:[https://fs.keyestudio.com/KS0543](https://fs.keyestudio.com/KS0470)
 
