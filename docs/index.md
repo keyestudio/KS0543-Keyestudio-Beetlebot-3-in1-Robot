@@ -55,18 +55,18 @@ Environmental protection attributes: ROHS
 | \#   | Picture                                                      | Name                                                         | QTY  |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
 | 1    | ![](media/c7539b06fcde4d4755283938f92e23df.png)              | Keyestudio Nano CH340 Development Board                      | 1    |
-| 2    | ![21](media/73ea136e8d2c0abe04ca45000e6cad79.png)            | ESP8266 Wifi Module                                          | 1    |
-| 3    | ![2 (2)](media/9c01f45d56373129572e74adab73d8f8.png)         | Keyestudio Photoresistor                                     | 2    |
-| 4    | ![23](media/9edcdedfe4f9088985371470f98e38e6.png)            | 270° Servo                                                   | 1    |
-| 5    | ![41](media/fcda1e25e7e546c36763586f8b3153b7.png)            | Keyestudio Development Board                                 | 1    |
-| 6    | ![40](media/18d159fc33390024b37428ce6e06778b.png)            | Keyestudio Driver Board                                      | 1    |
-| 7    | ![24](media/f1ebd66fa2bd5c0292175ebdeb95ce51.png)            | LEGO Bulk Lot                                                | 1    |
-| 8    | ![18](media/8739b508dce5021027dcfb8949673b4b.png)            | Acrylic Board                                                | 1    |
-| 9    | ![16](media/98658a27a620770a9be5079ea8448fd3.png)            | MD0487 Acrylic Board for Ultrasonic Sensor                   | 1    |
-| 10   | ![5](media/7837c0367f7adbd2b21ad6f9a5c4c8b8.png)             | Acrylic Board for Servo                                      | 1    |
-| 11   | ![1](media/31d33954620e3b69bfd5557b8e0439e6.png)             | 4.5V 200R Motor                                              | 2    |
-| 12   | ![11](media/f1392df46465036b096f1a56b26a3a2e.png)            | 8\*8 Dot Matrix Display                                      | 1    |
-| 13   | ![4](media/2f64d4dabaa5bf1964fb34b23ef43132.png)             | Aluminum Block![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png) | 2    |
+| 2    | ![](media/73ea136e8d2c0abe04ca45000e6cad79.png)              | ESP8266 Wifi Module                                          | 1    |
+| 3    | ![](media/9c01f45d56373129572e74adab73d8f8.png)              | Keyestudio Photoresistor                                     | 2    |
+| 4    | ![](media/9edcdedfe4f9088985371470f98e38e6.png)              | 270° Servo                                                   | 1    |
+| 5    | ![](media/fcda1e25e7e546c36763586f8b3153b7.png)              | Keyestudio Development Board                                 | 1    |
+| 6    | ![](media/18d159fc33390024b37428ce6e06778b.png)              | Keyestudio Driver Board                                      | 1    |
+| 7    | ![](media/f1ebd66fa2bd5c0292175ebdeb95ce51.png)              | LEGO Bulk Lot                                                | 1    |
+| 8    | ![](media/8739b508dce5021027dcfb8949673b4b.png)              | Acrylic Board                                                | 1    |
+| 9    | ![](media/98658a27a620770a9be5079ea8448fd3.png)              | MD0487 Acrylic Board for Ultrasonic Sensor                   | 1    |
+| 10   | ![](media/7837c0367f7adbd2b21ad6f9a5c4c8b8.png)              | Acrylic Board for Servo                                      | 1    |
+| 11   | ![](media/31d33954620e3b69bfd5557b8e0439e6.png)              | 4.5V 200R Motor                                              | 2    |
+| 12   | ![](media/f1392df46465036b096f1a56b26a3a2e.png)              | 8*8 Dot Matrix Display                                       | 1    |
+| 13   | ![](media/2f64d4dabaa5bf1964fb34b23ef43132.png)              | Aluminum Block![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png) | 2    |
 | 14   | ![14](media/2f229312cfd3bea2d0db3f440b81f690.png)            | 9G 180°Servo                                                 | 1    |
 | 15   | ![17](media/1c1539bd920c8879542dff94e03882f7.png)            | Car Wheel                                                    | 2    |
 | 16   | ![2](media/1e2638f274f4ecadb9123a5bb9c48260.png)             | HC-SR04 Ultrasonic Sensor                                    | 1    |
@@ -83,7 +83,7 @@ Environmental protection attributes: ROHS
 | 27   | ![17](media/d101ebf87f35fb78e3db9c2ed88eab57.png)            | Acrylic Gasket                                               | 6    |
 | 28   | ![15](media/3a03ab5aa2b49d63bb98f4276be81fe7.png)            | M3\*40MM Dual Pass Copper Pillars                            | 4    |
 | 29   | ![28](media/d322da60be4c1aab1efb384202da16c3.png)            | M1.2\*5MM Round Head Screws                                  | 6    |
-| 30   | ![27](media/5da761be5dad1e7db6f2678b0f4e862d.png) ![27](media/5da761be5dad1e7db6f2678b0f4e862d.png) | M1.4 Nuts                                                    | 6    |
+| 30   | ![27](media/5da761be5dad1e7db6f2678b0f4e862d.png)            | M1.4 Nuts                                                    | 6    |
 | 31   | ![](media/aed51613611860331082dffebf7d5780.png)              | M1.4\*10MM Round Head Screws                                 | 6    |
 | 32   | ![27](media/5da761be5dad1e7db6f2678b0f4e862d.png)            | M2 Nuts                                                      | 3    |
 | 33   | ![26](media/dfbaff8ac89eaed99240c0ab2d307c45.png)            | M2\*8MM Round Head Screws                                    | 3    |

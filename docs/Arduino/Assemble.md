@@ -1,4 +1,4 @@
-## How to assemble the beetlebot car
+## How to assemble the Beetlebot Robot
 
 ![image-20231109081455305](media/image-20231109081455305.png)
 
