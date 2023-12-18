@@ -2,7 +2,7 @@
 
 ## Get started with Arduino
 
-![](/media/ide.png)
+![](media/ide.png)
 
 **Click the link to start learning how to download software, install drivers, upload code, and install library files.**
 
@@ -28,7 +28,7 @@ On-board LED：
 LED, the abbreviation of light emitting diodes, consists of Ga, As, P, N chemical compounds and so on. It is easy to control through the IO port(D13) of
 the Arduino Nano board.
 
-![IMG_256](media/9ee7eb2f9d8ffb58bf75e9771331ac60.png)
+![](media/9ee7eb2f9d8ffb58bf75e9771331ac60.png)
 
 **Test Code：**
 
