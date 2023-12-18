@@ -2,11 +2,11 @@
 
 ## Get started with Arduino
 
-[https://arduinoide.readthedocs.io/en/latest/](https://arduinoide.readthedocs.io/en/latest/)
+![](/media/ide.png)
 
-Note that in the **2.Install Driver** section, select **CH340-WINDOWS**.
+**Click the link to start learning how to download software, install drivers, upload code, and install library files.**
 
-![image-20231108113328634](media/image-20231108113328634.png)
+**[https://getting-started-with-arduino.readthedocs.io](https://getting-started-with-arduino.readthedocs.io/en/latest/Arduino%20IDE%20Tutorial.html)**
 
 
 ## Projects
