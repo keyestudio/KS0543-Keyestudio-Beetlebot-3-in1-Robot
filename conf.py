@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'KS0543 Keyestudio Beetlebot 3 in 1 Robot'
+project = 'Beetlebot 3 in 1 Robot'
 copyright = 'keyestudio , WiKi'
 author = 'keyestudio WiKi'
 
