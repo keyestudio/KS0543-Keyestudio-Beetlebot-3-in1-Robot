@@ -1,6 +1,17 @@
 # Getting started with Beetlebot Robot
 
-## 1. Description
+![Img](./media/img-20240112191418.png)
+
+
+## 1. Libraries, All Codes and Other Details:
+
+* [Arduino_Libraries](Arduino_Libraries.zip)
+
+* [All_Codes](All_Codes.zip)
+
+* [Other_Details](Other_Details.zip)
+
+## 2. Description
 
 The Beetlebot smart robot, compatible with LEGO building blocks, is a STEM educational product which can automatically dodge obstacles, follow black lines and light to move. Besides, it has three cool forms such as the soccer robot, the siege robot, the handling robot. As for beginners, they can create whatever they want by LEGO building blocks.
 
@@ -8,7 +19,7 @@ Various improvements have been made on the Beetlebot car in comparison with othe
 
 Going forward, not only can it impart basic programming knowledge and AI application to children and the youth, but also it can cultivate their creativity, hands-on ability, problem-solving capability, interpersonal communication as well as teamwork ability. With this kit, you have a chance to experience soccer games using your own robots.
 
-## 2. Features
+## 3. Features
 
 -   Compatible with LEGO building blocks: generate diverse forms with LEGO blocks and sensors.
     
@@ -26,7 +37,7 @@ Going forward, not only can it impart basic programming knowledge and AI applica
     
 -   App: compatible with Android and iOS systems, with aesthetic page and flexible control system.
 
-## 3. Specification
+## 4. Specification
 
 Working voltage: 5V
 
@@ -50,7 +61,7 @@ Size: 176mm\*137mm\*130mm
 
 Environmental protection attributes: ROHS
 
-## 4. Kit List
+## 5. Kit List
 
 | \#   | Picture                                                      | Name                                                         | QTY  |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
@@ -66,11 +77,11 @@ Environmental protection attributes: ROHS
 | 10   | ![](media/7837c0367f7adbd2b21ad6f9a5c4c8b8.png)              | Acrylic Board for Servo                                      | 1    |
 | 11   | ![](media/31d33954620e3b69bfd5557b8e0439e6.png)              | 4.5V 200R Motor                                              | 2    |
 | 12   | ![](media/f1392df46465036b096f1a56b26a3a2e.png)              | 8*8 Dot Matrix Display                                       | 1    |
-| 13   | ![](media/2f64d4dabaa5bf1964fb34b23ef43132.png)              | Aluminum Block![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png) | 2    |
+| 13   | ![](media/2f64d4dabaa5bf1964fb34b23ef43132.png)              | Aluminum  | 2    |
 | 14   | ![14](media/2f229312cfd3bea2d0db3f440b81f690.png)            | 9G 180°Servo                                                 | 1    |
 | 15   | ![17](media/1c1539bd920c8879542dff94e03882f7.png)            | Car Wheel                                                    | 2    |
 | 16   | ![2](media/1e2638f274f4ecadb9123a5bb9c48260.png)             | HC-SR04 Ultrasonic Sensor                                    | 1    |
-| 17   | ![10](media/6833beefc1c2e7f41738663b526402d9.png)            | Screwdriver![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png)![](media/3ebe69f1c8f739618fc20f9f84f81012.png) | 1    |
+| 17   | ![10](media/6833beefc1c2e7f41738663b526402d9.png)            | Screwdriver| 1    |
 | 18   | ![4](media/dec057f0e30aa2d623f56a4b81fe94ad.png)             | W420 Universal Wheel                                         | 1    |
 | 19   | ![遥控器-2](media/b1ea8a9c11948a3a9ba6cdfa2be7dc7d.png)      | JMFP-4 17-Key Remote Control                                 | 1    |
 | 20   | ![6](media/a05e7d468466f616b353ea39f9773b16.png)             | Black USB Cable                                              | 1    |
@@ -97,17 +108,9 @@ Environmental protection attributes: ROHS
 | 41   | ![IMG_256](media/b6e486d949799aad19f608b9b65d9376.png)       | USB to ESP-01S WIFI Module Expansion Board                   | 1    |
 | 42   | ![](media/image-20231008114305224.png)                       | M2.3*16MM Round Head Self-tapping Screw                      | 2    |
 
-## 5. PCB Board
+## 5. Keyestudio Nano Board
 
-**![标注-01](media/22ed83749355b1e9788d0776d9b05af7.png)**
-
-**![标注-02](media/138bb83b537fc2d89e533d68e7157dde.png)**
-
-Turn the DIP switch to the OFF end before installing or removing batteries.
-
-## 6. Keyestudio Nano Board
-
- **Description**
+### 1. Description:
 
 The processor core of Keyestudio Nano CH340 is ATMEGA328P-AU. It is as same as the official Arduino Nano in addition to driver file and USB to serial chip (CH340G).
 
@@ -115,7 +118,7 @@ It also has 14 digital input / output interfaces (6 of which can be used as PWM 
 
 The ICSP interface is used to program the Atmega328P-Au. We can supply power with a USB cable, the port VIN GND (DC 7-12V) and GND
 
- **Specification**
+### 2. Specification:
 
 Microcontroller：ATMEGA328P-AU
 
@@ -141,7 +144,7 @@ Clock Speed: 16 MHz
 
 LED_BUILTIN: D13
 
- **Pins**
+### 3. Pins:
 
 ![image-20231108171148636](media/image-20231108171148636.png)
 
@@ -155,7 +158,7 @@ LED_BUILTIN: D13
 | 5    | LED indicator（L）               | There is a built-in LED driven by digital pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW, it's off. |
 | 6    | RX0（D0）<br>TX1（D1）<br>D2-D13 | It has 14 digital input/output pins D0-D13 (of which 6 can be used as PWM outputs). These pins can be configured as digital input pin to read the logic value (0 or 1). Or used as digital output pin to drive different modules like LED, relay, etc. |
 | 7    | RST                              | Reset pin: connect external button. The function is the same as RESET button. |
-| 8    | MEGA 328P                        | Each board has its own microcontroller. You can regard it as the brain of your board.Microcontrollers are usually from ATMEL. Before you load a new program on the Arduino IDE, you must know what IC is on your board. This information can be checked at the top surface of IC.The board’s microcontroller is ATMEGA328P-AU. More info. see the [datasheet ](http://101.96.10.64/ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Summary.pdf) |
+| 8    | MEGA 328P                        | Each board has its own microcontroller. You can regard it as the brain of your board.Microcontrollers are usually from ATMEL. Before you load a new program on the Arduino IDE, you must know what IC is on your board. This information can be checked at the top surface of IC.The board’s microcontroller is ATMEGA328P-AU. More info. |
 | 9    | MINI USB                         | The board can be powered via Mini-B USB connection. Also upload the program to the board via USB port. |
 | 10   | 3V3 pin                          | Provides 3.3V voltage output                                 |
 | 11   | REF                              | Reference external voltage (0-5 volts) for the analog input pins. Used with [analogReference()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/). |
@@ -167,7 +170,8 @@ LED_BUILTIN: D13
 | 17   | CH340G                           | USB-to-serial port chip, converting the USB signal into Serial port signal. |
 | 18   | AMS1117                          | Convert the external voltage input DC7-12V into DC5V, then transfer it to the processor and other elements. |
 
- **Specialized Functions of Some Pins:**
+
+**Specialized Functions of Some Pins:**
 
 - **Serial communication:** RX0 and TX1.
 - **PWM (Pulse-Width Modulation):** D3, D5, D6, D9, D10, D11
@@ -175,10 +179,20 @@ LED_BUILTIN: D13
 - **SPI communication:** D10 (SS), D11 (MOSI), D12 (MISO), D13 (SCK).
 - **IIC communication:** A4 (SDA); A5(SCL)
 
+## 6. PCB Board
 
-##  7.Resources
+**![标注-01](media/22ed83749355b1e9788d0776d9b05af7.png)**
 
-Download code,libraries and more details, please refer to the following link:
+**![标注-02](media/138bb83b537fc2d89e533d68e7157dde.png)**
 
-[https://fs.keyestudio.com/KS0543](https://fs.keyestudio.com/KS0543)
+Turn the DIP switch to the OFF end before installing or removing batteries.
+
+
+
+
+
+
+
+
+
 

@@ -5,12 +5,9 @@
 
    README.md
    docs/index
-   docs/Arduino/Assemble
-   docs/Arduino/Arduino
-   docs/Scratch/Kidsblock
-   docs/Arduino/Catapult
-   docs/Arduino/Handling
-   docs/Arduino/Soccer
+   docs/Arduino_Tutorial/Arduino_Tutorial.md
+   docs/Kidsblock_Tutorial/Kidsblock_Tutorial.md
+   docs/LEGO_Tutorial/LEGO_Tutorial.md
 
 
 
