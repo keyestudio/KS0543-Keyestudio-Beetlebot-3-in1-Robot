@@ -1,7 +1,7 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: KS0543 Keyestudio Beetlebot 3 in 1 Robot
+   :caption: contents:
 
    README.md
    docs/index

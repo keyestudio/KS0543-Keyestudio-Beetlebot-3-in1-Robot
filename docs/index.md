@@ -108,7 +108,7 @@ Environmental protection attributes: ROHS
 | 41   | ![IMG_256](media/b6e486d949799aad19f608b9b65d9376.png)       | USB to ESP-01S WIFI Module Expansion Board                   | 1    |
 | 42   | ![](media/image-20231008114305224.png)                       | M2.3*16MM Round Head Self-tapping Screw                      | 2    |
 
-## 5. Keyestudio Nano Board
+## 6. Keyestudio Nano Board
 
 ### 1. Description:
 
@@ -179,7 +179,7 @@ LED_BUILTIN: D13
 - **SPI communication:** D10 (SS), D11 (MOSI), D12 (MISO), D13 (SCK).
 - **IIC communication:** A4 (SDA); A5(SCL)
 
-## 6. PCB Board
+## 7. PCB Board
 
 **![标注-01](media/22ed83749355b1e9788d0776d9b05af7.png)**
 

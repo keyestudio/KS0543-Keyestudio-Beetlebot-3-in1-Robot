@@ -223,6 +223,7 @@ Keep the ultrasonic sensor parallel to the board
 | V                  | V       |
 | S                  | S（A6） |
 
+
 ![image-20231109085203296](media/image-20231109085203296.png)
 
 **Wire up the right photoresistor**
@@ -232,6 +233,7 @@ Keep the ultrasonic sensor parallel to the board
 | G                   | G       |
 | V                   | V       |
 | S                   | S（A7） |
+
 
 ![image-20231109085313102](media/image-20231109085313102.png)
 
@@ -257,7 +259,11 @@ There is an onboard LED (L) on our Arduino Nano board connected to D13. In this 
 
 LED blinking is the most basic experimental project for Arduino enthusiasts. Let’s get started.
 
-#### **(2)Knowledge：**
+#### **(2)Components Required：**
+
+![Img](./media/img-1234.png)
+
+#### **(3)Knowledge：**
 
 **On-board LED：**
 
@@ -265,11 +271,11 @@ LED, the abbreviation of light emitting diodes, consists of Ga, As, P, N chemica
 
 ![IMG_256](media/9ee7eb2f9d8ffb58bf75e9771331ac60.png)
 
-#### **(3)Test Code**
+#### **(4)Test Code**
 
 ![](media/3b2b2a7eccd6f160bbd781a157127353.png)
 
-#### **(4)Test Result：**
+#### **(5)Test Result：**
 
 Upload the test code to the Arduino Nano board and power up with a USB cable. Then the on-board LED will flash.
 
@@ -283,7 +289,11 @@ There are 4 RGB LEDs can be widely used in the decoration of buildings, bridges,
 
 In this experiment, we will demonstrate different lighting effects with them.
 
-#### **(2)Component Knowledge**
+#### **(2)Components Required：**
+
+![Img](./media/img-1234.png)
+
+#### **(3)Component Knowledge**
 
 **SK6812RGB:**
 
@@ -294,13 +304,13 @@ The data protocol adopts a single-wire zero-code communication method. After the
 
 ![](media/86e292d0666046b72a1e0e68adfb17e8.png)
 
-#### **(3)Test Code：**
+#### **(4)Test Code：**
 
 The SK6812RGB on the PCB board is controlled by the IO port (A3).
 
 ![](media/030e367aa7d690a3ff54273d7e3d6a3b.png)
 
-#### **(4)Test Result：**
+#### **(5)Test Result：**
 
 Upload the test code to the Arduino Nano board and power up by a USB cable. Then the four RGB lights on the PCB demonstrate multi-color light effect.
 
@@ -314,19 +324,23 @@ There is a power amplifier component on the expansion board, which is often used
 
 In this experiment, we use the speaker amplifier component to play music.
 
-#### **(2)Knowledge：**
+#### **(2)Components Required：**
+
+![Img](./media/img-1234.png)
+
+#### **(3)Knowledge：**
 
 Power amplifier modules(equivalent to a passive buzzer) don’t have internal oscillation circuits.
 
 The power amplifier module can chime sounds with different frequency when power it up.
 
-#### **(3)Test Code：**
+#### **(4)Test Code：**
 
 The speaker component on the PCB board is controlled by the D3 of the Arduino Nano board.
 
 ![](media/60e70fe16a405dc595912abfd62a19bb.png)
 
-#### **(4)Test Result：**
+#### **(5)Test Result：**
 
 Upload the test code to the Arduino Nano board and power up with a USB cable. Then the power amplifier component will play music.
 
@@ -339,7 +353,11 @@ Upload the test code to the Arduino Nano board and power up with a USB cable. Th
 
 Composed of LED emitting tube diodes, the 8\*8 LED dot matrix are applied widely to public information display like advertisement screen and bulletin board, by controlling LED to show words, pictures and videos, etc.
 
-#### **(2)Knowledge：**
+#### **(2)Components Required：**
+
+![Img](./media/img-1234.png)
+
+#### **(3)Knowledge：**
 
 There are different types of matrices, including 4×4, 8×8 and 16×16 and etc. It contains 64 LEDs.
 
@@ -401,7 +419,7 @@ As shown below, the left button of the mouse is for selection while the right is
 
 The generated hexadecimal code（0x00, 0x66, 0x00, 0x00, 0x18, 0x42, 0x3c, 0x00) is what will be displayed, so you need to save it for next procedure.
 
-#### **(3)Wiring up：**
+#### **(4)Wiring up：**
 
 | 8\*8 Dot matrix display | PCB Board |
 |-------------------------|-----------|
@@ -410,14 +428,14 @@ The generated hexadecimal code（0x00, 0x66, 0x00, 0x00, 0x18, 0x42, 0x3c, 0x00)
 | SDA                     | SDA       |
 | SCL                     | SCL       |
 
-#### **(4)Test Code：**
+#### **(5)Test Code：**
 
 The 8\*8 dot matrix is controlled by A4（SDA）and A5（SCL）of the Arduino Nano board.
 
 ![](media/14c97457618176c0eb9c4e399bbb461e.png)
 
 
-#### **(5)Test Result：**
+#### **(6)Test Result：**
 
 Upload the test code to the Arduino Nano board and power up by a USB cable, the 8\*8 dot matrix display will show show patterns.
 
@@ -431,7 +449,11 @@ There are two servos on the car. We take the servo connected to pin D9 as an exa
 
 The servo is a motor that can rotate very accurately. It has been widely applied to toy cars, remote control helicopters, airplanes, robots and other fields. In this project, we will use the Nano motherboard to control the servo to spin.
 
-#### **(2)Knowledge：**
+#### **(2)Components Required：**
+
+![Img](./media/img-1234.png)
+
+#### **(3)Knowledge：**
 
 ![](media/99830768916233a9c5900ac399006c17.png)
 
@@ -448,7 +470,7 @@ In general, servo has three lines in brown, red and orange. The brown wire is gr
 
 **![](media/35084ae289a08e35bdb8c89ceb134ba4.png)**
 
-#### **(3)Wire up：**
+#### **(4)Wire up：**
 
 | Servo  | PCB Board |
 |--------|-----------|
@@ -456,13 +478,13 @@ In general, servo has three lines in brown, red and orange. The brown wire is gr
 | Red    | 5V        |
 | Orange | S1（D9）  |
 
-#### **(4)Test Code：**
+#### **(5)Test Code：**
 
 The servo for controlling the ultrasonic sensor is controlled by the D9 of the Arduino Nano board.
 
 ![](media/9217373979c0294c8235f32a86744c8e.png)
 
-#### **(5)Test Result：**
+#### **(6)Test Result：**
 
 Upload the test code to the Arduino Nano board, and power up with a USB cable. Then the arm of the servo will rotate to 0°, 45°, 90°, 135° and 180°.
 
@@ -476,7 +498,11 @@ There are many ways to drive motors. This car uses the most commonly used DRV883
 
 In this experiment, we use the DRV8833 motor driver chip on the expansion board to drive the two DC motors, and demonstrate the effect of forward, backward, left-turning, and right-turning.
 
-#### **(2)Knowledge：**
+#### **(2)Components Required：**
+
+![Img](./media/img-1234.png)
+
+#### **(3)Knowledge：**
 
 DRV8833 motor driver chip: Dual H-bridge motor driver with current control function, can drive two DC motors, one bipolar stepper motor, solenoid valve or other inductive loads. Each H-bridge includes circuitry to regulate or limit winding current.
 
@@ -490,7 +516,7 @@ If you want to get insight to it, you can check the specification of this chip. 
 
 ![](media/fd127538d99fbdce1a8956365cccaf7c.png)
 
-#### **(3)Specification：**
+#### **(4)Specification：**
 
 Input voltage of logic part: DC 5V
 
@@ -510,7 +536,7 @@ Control signal input level: high level 2.3V\<Vin\<5V, low level -0.3V\<Vin\<1.5V
 
 Working temperature: -25\~130℃
 
-#### **(4)Drive the car to move**
+#### **(5)Drive the car to move**
 
 From the above diagram, the direction pin of the left motor is D4; the speed pin is D6; D2 is the direction pin of the right motor; and D5 is speed pin.
 
@@ -524,11 +550,11 @@ PWM drives the robot car. The PWM value is in the range of 0-255. The more the P
 | Turn right | LOW  | 200       | clockwise     | HIGH | 200       | anticlockwise |
 | Stop       | LOW  | 0         | stop          | LOW  | 0         | stop          |
 
-#### **(5)Test Code：**
+#### **(6)Test Code：**
 
 ![](media/22523147b647bc04f926683b1631c6f2.png)
 
-#### **(6)Test Result：**
+#### **(7)Test Result：**
 
 Upload the test code to the Arduino Nano board, install batteries, turn the power switch to ON end and power up. The car moves forward for 2s, back for 2s, turn left for 2s, right for 2s and stops for 2s.
 
@@ -544,7 +570,11 @@ The ultrasonic sensor sends a high-frequency ultrasonic signal that human hearin
 
 In this experiment, we use an ultrasonic sensor to measure distance and print the data on a serial monitor.
 
-##### **(2)Knowledge：**
+##### **(2)Components Required：**
+
+![Img](./media/img-1234.png)
+
+##### **(3)Knowledge：**
 
 The HC-SR04 ultrasonic sensor uses sonar to determine distance to an object like what bats do. It offers excellent non-contact range detection with high accuracy and stable readings in an easy-to-use package. It comes complete with ultrasonic
 transmitter and receiver modules.
@@ -577,7 +607,7 @@ The Vcc pin provides power generating ultrasonic pulses and is connected to Vcc/
 
 The Trig pin is where the Arduino sends a signal to start the ultrasonic pulse. The Echo pin is where the ultrasonic sensor sends information about the duration of the ultrasonic pulse stroke to the Arduino control board.
 
-##### **(3)Wiring Up**
+##### **(4)Wiring Up**
 
 | Ultrasonic Sensor | PCB Board |
 |-------------------|-----------|
@@ -586,13 +616,13 @@ The Trig pin is where the Arduino sends a signal to start the ultrasonic pulse. 
 | Echo              | S1（D7）  |
 | Gnd               | G         |
 
-##### **(4)Test Code：**
+##### **(5)Test Code：**
 
 The pin Trig and Echo of the ultrasonic sensor are controlled by the D8 and D7 of the Arduino Nano.
 
 ![](media/5f7ef28d334cc80c62f372d999666bd8.png)
 
-##### **(5)Test Result：**
+##### **(6)Test Result：**
 
 Upload the test code to the Arduino Nano board, power up with a USB cable, open the serial monitor to click ![](media/5aa7c3468c7015b37236cd95c06280d8.png) and set baud rate to 9600.
 
@@ -609,7 +639,11 @@ When you move an object in front of the ultrasonic sensor, it will detect the di
 
 In the above experiments, we have learned about the 8\*8 dot matrix, motor drivers and speed regulation, ultrasonic sensors, servos and other hardware. In this experiment, we will combine them to create a follow car with the ultrasonic sensor. The can can follow an object to move through measuring distance.
 
-##### **(2)Working Principle：**
+##### **(2)Components Required：**
+
+![Img](./media/img-1234.png)
+
+##### **(3)Working Principle：**
 
 | Detection   | Detect the front distance    Distance（unit：cm） |
 | ----------- | ------------------------------------------------- |
@@ -622,15 +656,15 @@ In the above experiments, we have learned about the 8\*8 dot matrix, motor drive
 | Condition 4 | distance≥35                                       |
 | State       | stop                                              |
 
-##### **(3)Flow Chart：**
+##### **(4)Flow Chart：**
 
 ![QQ图片20220119081423-2](media/e1ded45b4454e64b7ff419bad285cb3a.png)
 
-##### **(4)Test Code：**
+##### **(5)Test Code：**
 
 ![](media/e0e3097c312539f3d7c4bd1696ec1772.png)
 
-##### **(5)Test Result：**
+##### **(6)Test Result：**
 
 Upload the code to the Arduino Nano board, install batteries and turn the switch to the ON end and power up. Then the car will follow the obstacle to move.
 
@@ -643,21 +677,25 @@ Upload the code to the Arduino Nano board, install batteries and turn the switch
 
 In this project, we will take advantage of the ultrasonic sensor to detect the distance away from the obstacle so as to avoid them.
 
-##### **(2)Working Principle：**
+##### **(2)Components Required：**
+
+![Img](./media/img-1234.png)
+
+##### **(3)Working Principle：**
 
 ![](media/image-20231008132805325.png)
 
 ![](media/image-20231008132855579.png)
 
-##### **(3)Flow Chart：**
+##### **(4)Flow Chart：**
 
 ![QQ图片20220119081418-2](media/62cafb9417859896368e046396c58495.png)
 
-##### **(4)Test Code：**
+##### **(5)Test Code：**
 
 ![](media/5f367293f388702a7c69c37cff2f3b86.png)
 
-##### **(5)Test Result：**
+##### **(6)Test Result：**
 
 Upload the test code to the Arduino Nano board, put batteries in the battery holder, turn the power switch to the ON end and power up. Then the car can automatically dodge obstacles.
 
@@ -674,7 +712,11 @@ There are two IR line tracking sensors on the car. They are actually two pairs o
 
 In this experiment, we use ST188L3 infrared tubes to detect black and white lines, then print the data on the serial monitor.
 
-##### **(2)Knowledge：**
+##### **(2)Components Required：**
+
+![Img](./media/img-1234.png)
+
+##### **(3)Knowledge：**
 
 **Infrared line tracking:**
 
@@ -695,13 +737,13 @@ The detected black object or no object represents 1, and the detected white obje
 | 1    | 0     | 10               |
 | 1    | 1     | 11               |
 
-##### **(3)Test Code：**
+##### **(4)Test Code：**
 
 The line tracking sensors of the PCB board are controlled by D11 and D10 of the Arduino Nano baord.
 
 ![](media/8cbb491e030fc116dc692921b2565b6f.png)
 
-##### **(4)Test Result：**
+##### **(5)Test Result：**
 
 Upload the test code to the Arduino Nano board, power up with a USB cable, open the serial monitor to click ![](media/5aa7c3468c7015b37236cd95c06280d8.png) and
 set baud rate to 9600.
@@ -718,7 +760,11 @@ The sensitivity can be adjusted by rotating the potentiometer. When the indicato
 
 We’ve introduced the knowledge of motor drivers, speed regulation, and infrared line tracking. In this experiment, the car will perform different actions according to the values transmitted by the infrared tracking.
 
-##### **(2)Working Principle：**
+##### **(2)Components Required：**
+
+![Img](./media/img-1234.png)
+
+##### **(3)Working Principle：**
 
 | Left | Right | Value（Binary ） | State        |
 |------|-------|------------------|--------------|
@@ -727,15 +773,15 @@ We’ve introduced the knowledge of motor drivers, speed regulation, and infrare
 | 1    | 0     | 10               | Turn left    |
 | 1    | 1     | 11               | Move forward |
 
-##### **(3)Flow Chart：**
+##### **(4)Flow Chart：**
 
 ![IMG_256](media/c6a0ace5faa949e4fb24fc511d179e08.png)
 
-##### **(4)Test Code：**
+##### **(5)Test Code：**
 
 ![](media/5cc84225269f46413103c9f87c096a52.png)
 
-##### **(5)Test Result：**
+##### **(6)Test Result：**
 
 Upload the test code to the Arduino Nano board, turn the power switch to the ON end, power up and put the car on a map we provide. Then it will perform different functions via values sent by line tracking sensors.
 
@@ -751,13 +797,17 @@ Photoresistors can determine and conduct the car to move by detecting light.
 
 In this experiment, we will learn the working principle of the photoresistor.
 
-##### **(2)Knowledge：**
+##### **(2)Components Required：**
+
+![Img](./media/img-1234.png)
+
+##### **(3)Knowledge：**
 
 **Photoresistor:**
 
 It mainly uses a photosensitive resistance element whose resistance varies from the light intensity. The signal terminal of the sensor is connected to the analog port of the microcontroller. When the light is stronger, the analog value at the analog port will increase; on the contrary, when the light intensity is weaker, the analog value of the microcontroller will reduce. In this way, the corresponding analog value can reflect the ambient light intensity.
 
-##### **(3)Wire up：**
+##### **(4)Wire up：**
 
 Through the wiring-up diagram, signal pins of two photoresistors are connected to A6 and A7 of the Nano board.
 
@@ -769,13 +819,15 @@ For the following experiment, we use the photoresistor connected to A6 to finish
 | V                  | V         |
 | S                  | S（A6）   |
 
-##### **(4)Test Code：**
+![Img](./media/img-20240122140348.png)
+
+##### **(5)Test Code：**
 
 The left photoresistor is controlled by the A6 of the Arduino Nano board.
 
 ![](media/d71c17943bd6043e9367541dad730441.png)
 
-##### **(5)Test Result：**
+##### **(6)Test Result：**
 
 Upload the test code to the Arduino Nano board, power up with a USB cable, open the serial monitor to click ![](media/5aa7c3468c7015b37236cd95c06280d8.png) and
 set baud to 9600.
@@ -790,7 +842,11 @@ When the light intensifies, the analog value will get increased; on the contrary
 
 We have learned the working principle of photoresistor, motor and speed regulation. In this experiment, we will use a photoresistor to detect the intensity of light as as to achieve the light following effect.
 
-##### **(2)Working Principle：**
+##### **(2)Components Required：**
+
+![Img](./media/img-1234.png)
+
+##### **(3)Working Principle：**
 
 | Analog value of the left sensor | Analog value of the right sensor | Function      |
 |---------------------------------|----------------------------------|---------------|
@@ -799,7 +855,7 @@ We have learned the working principle of photoresistor, motor and speed regulati
 | ≤500                            | \>500                            | Move to right |
 | \<500                           | \<500                            | Stop          |
 
-##### **(3)Wiring up：**
+##### **(4)Wiring up：**
 
 | Left Photoresistor | PCB Board |   | Right photoresistor | PCB Board |
 |--------------------|-----------|---|---------------------|-----------|
@@ -807,17 +863,19 @@ We have learned the working principle of photoresistor, motor and speed regulati
 | V                  | V         |   | V                   | V         |
 | S                  | S（A6）   |   | S                   | S（A7）   |
 
-##### **(4)Flow Chart：**
+![Img](./media/img-20240122141207.png)
+
+##### **(5)Flow Chart：**
 
 ![QQ图片20220119081408-2](media/d30fcd3007f0d8e6c995bc456679172e.png)
 
-##### **(5)Test Code：**
+##### **(6)Test Code：**
 
 The left and right photoresistors are controlled by A6 and A7 of the Arduino Nano board.
 
 ![](media/ba6d00fd3c4015f5d00058643966ffdb.png)
 
-##### **(6)Test Result：**
+##### **(7)Test Result：**
 
 Upload the test code to the Arduino Nano board, put batteries in the battery holder, turn the power switch to the ON end and power up. Then the car will follow the light to move.
 
@@ -836,7 +894,11 @@ The remote control is composed of an IR emitter, an IR receiver and a decoding M
 
 In this experiment, we will combine the IR receiver and the IR remote control to read key values and show them on the serial monitor.
 
-##### **(2)Knowledge：**
+##### **(2)Components Required：**
+
+![Img](./media/img-20240122121011.png)
+
+##### **(3)Knowledge：**
 
 **IR Remote Control：**
 
@@ -915,13 +977,13 @@ The command redundancy is still preserved. Therefore each address can still hand
 
 Keep in mind that 256 address values of the extended protocol are invalid because they are in fact normal NEC protocol addresses. Whenever the low byte is the exact inverse of the high byte it is not a valid extended address.
 
-##### **(3)Test Code：**
+##### **(4)Test Code：**
 
 The IR receiver on the PCB board is controlled by IO port(D12) of the Arduino Nano board.
 
 ![](media/acf02ec222bc0f2812d150cfabc01be8.png)
 
-##### **(4)Test Result：**
+##### **(5)Test Result：**
 
 Upload the test code to the Arduino Nano board, power up with a USB cable, open the serial monitor to click ![](media/5aa7c3468c7015b37236cd95c06280d8.png) and
 set to 9600.
@@ -941,7 +1003,11 @@ Code of each key.
 In the above experiment, we have learned about the knowledge of the 8\*8 dot matrix display, the motor driver and speed regulation, the infrared receiver and the infrared remote control. In this experiment, we will use the infrared remote
 control and the infrared receiver to control the car.
 
-##### **(2)Working Principle：**
+##### **(2)Components Required：**
+
+![Img](./media/img-20240122121011.png)
+
+##### **(3)Working Principle：**
 
 | Keys                                            | Keys Code | Functions                                 |
 | ----------------------------------------------- | --------- | ----------------------------------------- |
@@ -951,15 +1017,15 @@ control and the infrared receiver to control the car.
 | ![](media/9eb9042aace52c96a86379dbac70ee2d.png) | FFC23D    | Turn right<br/>Show“right turning”pattern |
 | ![](media/68cbb08d230ef50b2f69c66c685414f6.png) | FF02FD    | stop<br/>show“stop”pattern                |
 
-##### **(3)Flow Chart：**
+##### **(4)Flow Chart：**
 
 ![QQ图片20220119081349-2](media/b8ecdfd8dbc04c43021b09bd2c6a48f0.png)
 
-##### **(4)Test Code**
+##### **(5)Test Code**
 
 ![](media/116950e70caf1c7009916b81a7d159a6.png)
 
-##### **(5)Test Result：**
+##### **(6)Test Result：**
 
 Upload the test code to the Arduino Nano motherboard, install batteries, turn the power switch to the ON end, power up and press a key of the IR remote control. Then the car will make the corresponding movement.
 
@@ -978,13 +1044,9 @@ The ESP8266 serial WiFi ESP-01 module is an ultra-low-power UART-WiFi transparen
 
 It can achieve networking functions by connecting devices to Wifi internet.
 
-##### **(2)Components Required**
+##### **(2)Components Required：**
 
-| ![](media/408f9f823aab6078768f08462eda209b.png)              | ![KS0388 Keyestudio USB转ESP-01S WIFI模块串口测试扩展板_0002_图层 1](media/54668bc6799d314c47c7ffd29dcaa013.jpeg) | ![13](media/3b7fd238a41d425918798f0d15479f7b.png) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------- |
-| ESP8266 Serial WIFI ESP-01 Module\*1                         | USB to ESP-01S WIFI Serial Expansion Board\*1                | USB Cable\*1                                      |
-| ![](media/2587909ac59e4411cdfd255758590ef1.jpeg)<br>![12](media/f6eccb4aa0e18f246ffd46fd9ff5d222.png) | ![](media/65150525c1e94b75d16716763154b1a5.png)              |                                                   |
-| Cellphone/IPad\*1                                            | Beetlebot Car\*1                                             |                                                   |
+![Img](./media/img-20240122131811.png)
 
 ##### **(3)Knowledge：**
 
@@ -1290,18 +1352,22 @@ Click![](media/db52b661d5b22528618e9c14aefa367e.png)，a“smile”pattern will 
 
 In this project we will demonstrate multiple functions of the Beetlebot car through app.
 
-##### **(2)Test Code：**
+##### **(2)Components Required：**
+
+![Img](./media/img-20240122131811.png)
+
+##### **(3)Test Code：**
 
 The code of ESP8266wifi module is not changed, then change the wifi password of the code into yours.
 
 
 ![](media/7573a90c49333b0939c5a4948fde8ec9.png)
 
-##### **(3)APP operation, as shown below:**
+##### **(4)APP operation, as shown below:**
 
 ![](media/49dce218d3a238aa8b90f763409cf7b7.png)
 
-<span style="color: rgb(255, 76, 65);">Note: See the previous lesson of Project 11.1 for how to connect your app to WiFi</span>
+<span style="color: rgb(255, 76, 65);">Note: See the previous lesson of Project 11.1 for how to connect your app to WiFi。</span>
 
 <br>
 <br>
