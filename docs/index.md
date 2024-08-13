@@ -107,6 +107,7 @@ Environmental protection attributes: ROHS
 | 40   | ![39](media/577d93e2112479af48822dc488cd6d65.png)            | 18650 Batteries <br>KS0543F includes batteries<br>KS0543 doesn't conclude batteries | 1    |
 | 41   | ![IMG_256](media/b6e486d949799aad19f608b9b65d9376.png)       | USB to ESP-01S WIFI Module Expansion Board                   | 1    |
 | 42   | ![](media/image-20231008114305224.png)                       | M2.3*16MM Round Head Self-tapping Screw                      | 2    |
+| 43   | ![](media/3DA73A9DB6055B30D9C96B9331DD1407.png)              | runway                                                       | 1    |
 
 ## 6. Keyestudio Nano Board
 
